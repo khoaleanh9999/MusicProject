@@ -1,3 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; 
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0; 
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+body ::before{
+    background-image: url(img/360_F_578507584_y0BUZ9yYbIZy9lNVI4sH1AbuLJaBPJru.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    position: absolute;
+    
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -29,4 +75,13 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px; 
 }
